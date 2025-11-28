@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-slate-900/80 border-t border-purple-500/20 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-5 gap-12 mb-12">
-          {/* Brand */}
+          
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <Sparkles className="h-8 w-8 text-purple-400" />
@@ -29,7 +29,7 @@ export default function Footer() {
             </div>
           </div>
           
-          {/* Product */}
+        
           <div>
             <h4 className="text-white font-semibold mb-4">Product</h4>
             <ul className="space-y-3">
@@ -40,7 +40,7 @@ export default function Footer() {
             </ul>
           </div>
           
-          {/* Company */}
+          
           <div>
             <h4 className="text-white font-semibold mb-4">Company</h4>
             <ul className="space-y-3">
@@ -51,7 +51,7 @@ export default function Footer() {
             </ul>
           </div>
           
-          {/* Legal */}
+         
           <div>
             <h4 className="text-white font-semibold mb-4">Legal</h4>
             <ul className="space-y-3">
@@ -63,7 +63,7 @@ export default function Footer() {
           </div>
         </div>
         
-        {/* Bottom bar */}
+     
         <div className="border-t border-purple-500/20 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
             © 2025 HERO. All rights reserved.
