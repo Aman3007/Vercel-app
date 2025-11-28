@@ -19,7 +19,7 @@ export function FeatureCard({ icon: Icon, title, description, gradientFrom, grad
         {title}
       </h3>
 
-      {/* Description */}
+    
       <p className="text-muted-foreground leading-relaxed">{description}</p>
     </Card>
     </div>
